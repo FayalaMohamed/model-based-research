@@ -1,0 +1,23 @@
+name: rl-pong
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip>=23.0
+  - numpy>=1.25
+  - scipy
+  - torchvision
+  - torchaudio
+  - pytorch
+  - gymnasium
+  - gymnasium-atari
+  - ale-py
+  - matplotlib
+  - imageio
+  - imageio-ffmpeg
+  - pip:
+      - ray[rllib]
+      - autorom[accept-rom-license]
+
