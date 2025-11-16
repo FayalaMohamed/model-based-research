@@ -59,6 +59,7 @@ google-pasta==0.2.0
 grpcio==1.75.1
 gymnasium==1.2.1
 h5py==3.14.0
+ray[rllib]>=2.0.0
 idna==3.10
 image-geometry==3.2.1
 imageio==2.37.0
